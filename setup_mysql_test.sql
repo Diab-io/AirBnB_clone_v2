@@ -1,7 +1,7 @@
 -- Script that prepares a MySQL server for the project:
--- A database hbnb_dev_db
--- hbnb_dev should have all privileges on the database hbnb_dev_db
--- hbnb_dev should have SELECT privilege on the database performance_schema
+-- A database hbnb_test_db
+-- hbnb_test should have all privileges on the database hbnb_dev_db
+-- hbnb_test should have SELECT privilege on the database performance_schema
 
 CREATE DATABASE IF NOT EXISTS hbnb_test_db;
 CREATE USER IF NOT EXISTS 'hbnb_test'@'localhost' IDENTIFIED BY 'hbnb_test_pwd';
